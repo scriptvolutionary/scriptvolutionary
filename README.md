@@ -16,7 +16,7 @@ const aboutMe = () => {
 
       <section id='other'>
         <Dev first='Front-end' second='Back-end' />
-        <Level frontEnd='Junior' backEnd='Junior' />
+        <Level frontEnd='Mid' backEnd='Mid' />
       </section>
     </>
   )
