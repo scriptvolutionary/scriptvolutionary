@@ -1,23 +1,25 @@
-```js
-const aboutMe = () => {
-  return(
+```jsx
+const AboutMe = () => {
+  return (
     <>
-      <section id='bio'>
-        <Names first='Kirill' last='Borisov' />
-        <UserName content='scriptvolutionary' />
-        <Age content='18' />
-        <Status content='student' />
-      </section>
+      <Container>
+        <section id='bio'>
+          <Name first='Kirill' last='Borisov' />
+          <UserName content='scriptvolutionary' />
+          <Age content='19' />
+          <Status content='student' />
+        </section>
 
-      <section id='skills'>
-        <FrontEndSkill content='HTML5, CSS3, JS/ES6+, TS, React, NextJS, Tailwind, SCSS' />
-        <BackEndSkill content='PHP, NodeJS, ExpressJS, MongoDB, Firebase, MySQL, Prisma' />
-      </section>
+        <section id='skills'>
+          <FrontEndSkills content='HTML, CSS/SCSS, JS/JSX/TS/TSX, React/NextJS, TailwindCSS' />
+          <BackEndSkills content='PHP, Node/Express/NestJS, MongoDB, Firebase, MySQL' />
+        </section>
 
-      <section id='other'>
-        <Dev first='Front-end' second='Back-end' />
-        <Level frontEnd='Mid' backEnd='Mid' />
-      </section>
+        <section id='other'>
+          <Dev first='Frontend' second='Backend' />
+          <Level frontEnd='Middle' backEnd='Middle' />
+        </section>
+      </Container>
     </>
   )
 }
